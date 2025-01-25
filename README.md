@@ -1,11 +1,13 @@
-# Trabalho Redes - Acompanhamento formulário Web com Wireshark
+# Acompanhamento de formulário Web com Wireshark
 
 ## Descrição do Projeto
 Este projeto consiste em um formulário web que exibe conteúdo dinâmico, recebido através de um servidor web HTTP. O foco é demonstrar como o tráfego de dados pode ser monitorado utilizando o Wireshark.
 
+[Veja o projeto sendo executado](https://youtu.be/DbRxlpBor7E)
+
 ## Pré-requisitos
-- **Node.js e Vite** para rodar o frontend no localhost.
-- **Spring Boot** para rodar o backend.
+- **Node.js e Vite** para rodar o front-end no localhost.
+- **Spring Boot** para rodar o back-end.
 - **Npcap e Wireshark** para monitoramento local da rede.
 
 ## Instruções de Instalação
@@ -49,7 +51,7 @@ Este projeto consiste em um formulário web que exibe conteúdo dinâmico, receb
   ```
 
 
-Seu frontend estará rodando no localhost (geralmente em http://localhost:3000).
+Seu front-end estará rodando no localhost (geralmente em http://localhost:3000).
 
 ### 2. Download e Instalação do Spring Boot (Backend)
 
@@ -73,7 +75,7 @@ Seu frontend estará rodando no localhost (geralmente em http://localhost:3000).
   java -version
   ```
 
-#### Passo 3: Rodar o Backend com Spring Boot
+#### Passo 3: Rodar o Back-end com Spring Boot
 - Dentro do diretório do seu projeto Spring Boot, execute:
 
   ```bash
@@ -103,8 +105,8 @@ Esses são os passos para instalar o **Node.js e Vite** para o frontend, **Sprin
 
 ## Autoria e Contribuições
 
-- **Gabrielle De Oliveira**: Desenvolvimento Frontend e Monitoramento Wireshark
-- **Daniel Campos**: Desenvolvimento Backend e Monitoramento Wireshark
+- **Gabrielle De Oliveira**: Desenvolvimento Front-end e Monitoramento Wireshark
+- **Daniel Campos**: Desenvolvimento Back-end e Monitoramento Wireshark
 - **Ana Carolina Soares**: Monitoramento Wireshark
 
 
