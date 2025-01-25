@@ -23,25 +23,31 @@ Este projeto consiste em um formulário web que exibe conteúdo dinâmico, receb
   ```bash
   npm install -g create-vite
 
-Para criar um novo projeto com o Vite, execute:
-  ```bash
-npm create vite@latest nome-do-projeto
-```
 
-Navegue até o diretório do seu projeto:
+- Para criar um novo projeto com o Vite, execute:
+  
   ```bash
-cd nome-do-projeto
-```
+  npm create vite@latest nome-do-projeto
+  ```
 
-Instale as dependências:
+- Navegue até o diretório do seu projeto:
+  
   ```bash
-npm install
-```
+  cd nome-do-projeto
+  ```
 
-Para rodar o servidor de desenvolvimento, execute:
+- Instale as dependências:
+  
   ```bash
-npm run dev
-```
+  npm install
+  ```
+
+- Para rodar o servidor de desenvolvimento, execute:
+ 
+  ```bash
+  npm run dev
+  ```
+
 
 Seu frontend estará rodando no localhost (geralmente em http://localhost:3000).
 
@@ -63,16 +69,16 @@ Seu frontend estará rodando no localhost (geralmente em http://localhost:3000).
 - Instale a versão 21 ou superior do JDK.
 - Após a instalação, verifique se o Java foi instalado corretamente:
  
- ```bash
-java -version
-```
+  ```bash
+  java -version
+  ```
 
 #### Passo 3: Rodar o Backend com Spring Boot
 - Dentro do diretório do seu projeto Spring Boot, execute:
 
- ```bash
-./mvnw spring-boot:run
-```
+  ```bash
+  ./mvnw spring-boot:run
+  ```
 
 Isso iniciará seu backend, geralmente em http://localhost:8080.
 
